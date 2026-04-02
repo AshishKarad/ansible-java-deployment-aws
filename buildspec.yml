@@ -1,0 +1,18 @@
+version: 0.2
+
+phases:
+  install:
+    runtime-versions:
+      java: corretto17
+  build:
+    commands:
+      - echo "Build started"
+      - mvn clean package
+  post_build:
+    commands:
+      - echo "Build completed"
+
+artifacts:
+  files:
+    - target/java-aws-cicd-demo-0.0.1-SNAPSHOT.jar
+  discard-paths: yes
