@@ -1,0 +1,23 @@
+nohup: ignoring input
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.5.6)
+
+2026-04-02T01:25:30.533Z  INFO 13667 --- [           main] com.example.demo.DemoApplication         : Starting DemoApplication v0.0.1-SNAPSHOT using Java 17.0.18 with PID 13667 (/home/ubuntu/java-aws-cicd-demo/target/java-aws-cicd-demo-0.0.1-SNAPSHOT.jar started by ubuntu in /home/ubuntu/java-aws-cicd-demo)
+2026-04-02T01:25:30.538Z  INFO 13667 --- [           main] com.example.demo.DemoApplication         : No active profile set, falling back to 1 default profile: "default"
+2026-04-02T01:25:32.223Z  INFO 13667 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-04-02T01:25:32.241Z  INFO 13667 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-04-02T01:25:32.241Z  INFO 13667 --- [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.46]
+2026-04-02T01:25:32.281Z  INFO 13667 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-04-02T01:25:32.283Z  INFO 13667 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1620 ms
+2026-04-02T01:25:32.868Z  INFO 13667 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2026-04-02T01:25:32.893Z  INFO 13667 --- [           main] com.example.demo.DemoApplication         : Started DemoApplication in 3.162 seconds (process running for 3.883)
+2026-04-02T01:25:34.551Z  INFO 13667 --- [nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-04-02T01:25:34.553Z  INFO 13667 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-04-02T01:25:34.554Z  INFO 13667 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
