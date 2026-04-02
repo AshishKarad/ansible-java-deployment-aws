@@ -1,4 +1,4 @@
-name: Spring Boot Maven Build
+name: Spring Boot Maven Build from server
 
 on:
   push:
