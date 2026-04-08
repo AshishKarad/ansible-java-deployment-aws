@@ -90,19 +90,20 @@ Automated deployment using Ansible
 CI/CD integration
 Scalable AWS-based deployment
 Clean and structured project setup
-````markdown
-## 📊 Architecture Diagram
 
+````
+## 📊 Architecture Diagram
 
 ```mermaid
 graph TD;
-     A[Developer] -->|Push Code| B[GitHub Repo];
+    A[Developer] -->|Push Code| B[GitHub Repo];
     B --> C[CI/CD Pipeline];
     C -->|Build JAR| D[Maven];
     C -->|Trigger| E[Ansible];
     E -->|Deploy| F[AWS EC2];
     F --> G[Spring Boot App Running];
 ```
+
 ## 👨‍💻 Author
 
 **Ashish Karad**  
